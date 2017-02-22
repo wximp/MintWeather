@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:background="#187197"
+    android:layout_width="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+
+    android:layout_height="match_parent"
+    tools:context="com.wximp.mintweather.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/locationicon" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#B5E61D"
+            android:text="Position" />
+
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu"
+            android:elevation="0dp"
+            android:onClick="selectCity" />
+
+    </LinearLayout>
+
+
+    <include layout="@layout/item_nowweather"></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wind" />
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:id="@+id/tv_nowwind"
+            android:textColor="#D5CDF2"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风向： "
+
+            />
+
+
+    </LinearLayout>
+
+
+    <GridView
+        android:layout_marginTop="8dp"
+        android:id="@+id/gv_hint"
+        android:horizontalSpacing="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="10dp"
+        android:numColumns="2"></GridView>
+
+
+    <GridView
+        android:layout_marginTop="15dp"
+        android:id="@+id/gv_sm"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1" />
+
+
+</LinearLayout>

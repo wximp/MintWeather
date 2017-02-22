@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:background="#AFCE50">
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/dialog_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#7092BE"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/dialog_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#4FB66D"
+                android:text="取消" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialog_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:maxLines="5"
+            android:text="是否选择定位的城市:"
+            android:textColor="#E63872" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

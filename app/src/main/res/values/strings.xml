@@ -1,0 +1,749 @@
+<resources>
+    <string name="app_name">薄荷天气</string>
+    <array name="city">
+        <item>阿里 Ali</item>
+        <item>日喀则 Rikaze</item>
+        <item>喀什 Kashi</item>
+        <item>阿图什 Atushi</item>
+        <item>和田 Hetian</item>
+        <item>阿拉尔 Alaer</item>
+        <item>阿克苏 Akesu</item>
+        <item>伊宁 Yining</item>
+        <item>博乐 Bole</item>
+        <item>库尔勒 Kuerle</item>
+        <item>石河子 Shihezi</item>
+        <item>吐鲁番 Tulufan</item>
+        <item>乌鲁木齐 Wulumuqi</item>
+        <item>昌吉 Changji</item>
+        <item>五家渠 Wujiaqu</item>
+        <item>塔城 Tacheng</item>
+        <item>克拉玛依 Kelamayi</item>
+        <item>阿勒泰 Aletai</item>
+        <item>景洪 Jinghong</item>
+        <item>西沙 Xisha</item>
+        <item>三亚 Sanya</item>
+        <item>乐东 Ledong</item>
+        <item>五指山 Wuzhishan</item>
+        <item>东方 Dongfang</item>
+        <item>昌江 Changjiang</item>
+        <item>白沙 Baisha</item>
+        <item>儋州 Danzhou</item>
+        <item>保亭 Baoting</item>
+        <item>陵水 Lingshui</item>
+        <item>万宁 Wanning</item>
+        <item>琼中 Qiongzhong</item>
+        <item>屯昌 Tunchang</item>
+        <item>琼海 Qionghai</item>
+        <item>文昌 Wenchang</item>
+        <item>临高 Lingao</item>
+        <item>崇左 Chongzuo</item>
+        <item>防城港 Fangchenggang</item>
+        <item>北海 Beihai</item>
+        <item>钦州 Qinzhou</item>
+        <item>澄迈 Chengmai</item>
+        <item>定安 Dingan</item>
+        <item>海口 Haikou</item>
+        <item>湛江 Zhanjiang</item>
+        <item>茂名 Maoming</item>
+        <item>阳江 Yangjiang</item>
+        <item>南沙 Nansha</item>
+        <item>中沙 Wuzhishan</item>
+        <item>珠海 Zhuhai</item>
+        <item>普洱 Puer</item>
+        <item>临沧 Lincang</item>
+        <item>德宏 Dehong</item>
+        <item>保山 Baoshan</item>
+        <item>怒江 Nujiang</item>
+        <item>大理 Dali</item>
+        <item>香格里拉 Xianggelila</item>
+        <item>丽江 Lijiang</item>
+        <item>山南 Shannan</item>
+        <item>拉萨 Lasa</item>
+        <item>林芝 Linzhi</item>
+        <item>那曲 Naqu</item>
+        <item>昌都 Changdu</item>
+        <item>玉树 Yushu</item>
+        <item>甘孜 Ganzi</item>
+        <item>红河 Honghe</item>
+        <item>玉溪 Yuxi</item>
+        <item>楚雄 Chuxiong</item>
+        <item>昆明 Kunming</item>
+        <item>文山 Wenshan</item>
+        <item>百色 Baise</item>
+        <item>兴义 Xingyi</item>
+        <item>攀枝花 Panzhihua</item>
+        <item>曲靖 Qujing</item>
+        <item>凉山 Liangshan</item>
+        <item>昭通 Zhaotong</item>
+        <item>水城 Shuicheng</item>
+        <item>安顺 Anshun</item>
+        <item>贵阳 Guiyang</item>
+        <item>毕节 Bijie</item>
+        <item>南宁 Nanning</item>
+        <item>贵港 Guigang</item>
+        <item>来宾 Laibin</item>
+        <item>河池 Hechi</item>
+        <item>柳州 Liuzhou</item>
+        <item>玉林 Yulin</item>
+        <item>云浮 Yunfu</item>
+        <item>肇庆 Zhaoqing</item>
+        <item>梧州 Wuzhou</item>
+        <item>桂林 Guilin</item>
+        <item>贺州 Hezhou</item>
+        <item>都匀 Duyun</item>
+        <item>凯里 Kaili</item>
+        <item>遵义 Zunyi</item>
+        <item>铜仁 Tongren</item>
+        <item>永州 Yongzhou</item>
+        <item>怀化 Huaihua</item>
+        <item>邵阳 Shaoyang</item>
+        <item>娄底 Loudi</item>
+        <item>雅安 Yaan</item>
+        <item>乐山 Leshan</item>
+        <item>眉山 Meishan</item>
+        <item>宜宾 Yibin</item>
+        <item>泸州 Luzhou</item>
+        <item>自贡 Zigong</item>
+        <item>资阳 Ziyang</item>
+        <item>内江 Neijiang</item>
+        <item>成都 Chengdu</item>
+        <item>重庆 Chongqing</item>
+        <item>遂宁 Suining</item>
+        <item>南充 Nanchong</item>
+        <item>广安 Guangan</item>
+        <item>阿坝 Aba</item>
+        <item>德阳 Deyang</item>
+        <item>绵阳 Mianyang</item>
+        <item>巴中 Bazhong</item>
+        <item>武都 Wudu</item>
+        <item>广元 Guangyuan</item>
+        <item>恩施 Enshi</item>
+        <item>吉首 Jishou</item>
+        <item>张家界 Zhangjiajie</item>
+        <item>益阳 Yiyang</item>
+        <item>常德 Changde</item>
+        <item>宜昌 Yichang</item>
+        <item>荆州 Jingzhou</item>
+        <item>达州 Dazhou</item>
+        <item>汉中 Hanzhong</item>
+        <item>安康 Ankang</item>
+        <item>神农架 Shennongjia</item>
+        <item>荆门 Jingmen</item>
+        <item>襄阳 Xiangyang</item>
+        <item>十堰 Shiyan</item>
+        <item>格尔木 Geermu</item>
+        <item>果洛 Guoluo</item>
+        <item>海南 Hainan</item>
+        <item>海西 Haixi</item>
+        <item>海北 Haibei</item>
+        <item>张掖 Zhangye</item>
+        <item>哈密 Hami</item>
+        <item>嘉峪关 Jiayuguan</item>
+        <item>酒泉 Jiuquan</item>
+        <item>合作 Hezuo</item>
+        <item>黄南 Huangnan</item>
+        <item>海东 Haidong</item>
+        <item>临夏 Linxia</item>
+        <item>兰州 Lanzhou</item>
+        <item>天水 Tianshui</item>
+        <item>定西 Dingxi</item>
+        <item>白银 Baiyin</item>
+        <item>平凉 Pingliang</item>
+        <item>固原 Guyuan</item>
+        <item>西宁 Xining</item>
+        <item>武威 Wuwei</item>
+        <item>金昌 Jinchang</item>
+        <item>中卫 Zhongwei</item>
+        <item>吴忠 Wuzhong</item>
+        <item>银川 Yinchuan</item>
+        <item>阿左旗 Azuoqi</item>
+        <item>石嘴山 Shizuishan</item>
+        <item>宝鸡 Baoji</item>
+        <item>杨凌 Yangling</item>
+        <item>西安 Xian</item>
+        <item>咸阳 Xianyang</item>
+        <item>铜川 Tongchuan</item>
+        <item>渭南 Weinan</item>
+        <item>庆阳 Qingyang</item>
+        <item>商洛 Shangluo</item>
+        <item>运城 Yuncheng</item>
+        <item>三门峡 Sanmenxia</item>
+        <item>洛阳 Luoyang</item>
+        <item>临汾 Linfen</item>
+        <item>延安 Yanan</item>
+        <item>吕梁 Lvliang</item>
+        <item>榆林 Yulin</item>
+        <item>朔州 Shuozhou</item>
+        <item>乌海 Wuhai</item>
+        <item>临河 Linhe</item>
+        <item>鄂尔多斯 Eerduosi</item>
+        <item>包头 Baotou</item>
+        <item>呼和浩特 Huhehaote</item>
+        <item>江门 Jiangmen</item>
+        <item>佛山 Foshan</item>
+        <item>中山 Zhongshan</item>
+        <item>广州 Guangzhou</item>
+        <item>东莞 Dongguan</item>
+        <item>清远 Qingyuan</item>
+        <item>深圳 Shenzhen</item>
+        <item>惠州 Huizhou</item>
+        <item>河源 Heyuan</item>
+        <item>韶关 Shaoguan</item>
+        <item>汕尾 Shanwei</item>
+        <item>汕头 Shantou</item>
+        <item>揭阳 Jieyang</item>
+        <item>潮州 Chaozhou</item>
+        <item>梅州 Meizhou</item>
+        <item>漳州 Zhangzhou</item>
+        <item>厦门 Xiamen</item>
+        <item>龙岩 Longyan</item>
+        <item>郴州 Chenzhou</item>
+        <item>赣州 Ganzhou</item>
+        <item>衡阳 Hengyang</item>
+        <item>湘潭 Xiangtan</item>
+        <item>株洲 Zhuzhou</item>
+        <item>萍乡 Pingxiang</item>
+        <item>吉安 Jian</item>
+        <item>宜春 Yichun</item>
+        <item>新余 Xinyu</item>
+        <item>三明 Sanming</item>
+        <item>抚州 Fuzhou</item>
+        <item>泉州 Quanzhou</item>
+        <item>莆田 Putian</item>
+        <item>南平 Nanping</item>
+        <item>福州 Fuzhou</item>
+        <item>宁德 Ningde</item>
+        <item>温州 Wenzhou</item>
+        <item>长沙 Changsha</item>
+        <item>岳阳 Yueyang</item>
+        <item>潜江 Qianjiang</item>
+        <item>天门 Tianmen</item>
+        <item>仙桃 Xiantao</item>
+        <item>咸宁 Xianning</item>
+        <item>黄石 Huangshi</item>
+        <item>孝感 Xiaogan</item>
+        <item>武汉 Wuhan</item>
+        <item>鄂州 Ezhou</item>
+        <item>黄冈 Huanggang</item>
+        <item>南昌 Nanchang</item>
+        <item>鹰潭 Yingtan</item>
+        <item>上饶 Shangrao</item>
+        <item>景德镇 Jingdezhen</item>
+        <item>九江 Jiujiang</item>
+        <item>安庆 Anqing</item>
+        <item>池州 Chizhou</item>
+        <item>铜陵 Tongling</item>
+        <item>随州 Suizhou</item>
+        <item>信阳 Xinyang</item>
+        <item>南阳 Nanyang</item>
+        <item>驻马店 Zhumadian</item>
+        <item>漯河 Luohe</item>
+        <item>周口 Zhoukou</item>
+        <item>六安 Luan</item>
+        <item>合肥 Hefei</item>
+        <item>阜阳 Fuyang</item>
+        <item>淮南 Huainan</item>
+        <item>蚌埠 Bengbu</item>
+        <item>宿州 Suzhou</item>
+        <item>衢州 Quzhou</item>
+        <item>丽水 Lishui</item>
+        <item>金华 Jinhua</item>
+        <item>黄山 Huangshan</item>
+        <item>绍兴 Shaoxing</item>
+        <item>杭州 Hangzhou</item>
+        <item>湖州 Huzhou</item>
+        <item>嘉兴 Jiaxing</item>
+        <item>台州 Taizhou</item>
+        <item>宁波 Ningbo</item>
+        <item>舟山 Zhoushan</item>
+        <item>宣城 Xuancheng</item>
+        <item>芜湖 Wuhu</item>
+        <item>马鞍山 Maanshan</item>
+        <item>滁州 Chuzhou</item>
+        <item>南京 Nanjing</item>
+        <item>镇江 Zhenjiang</item>
+        <item>苏州 Suzhou</item>
+        <item>无锡 Wuxi</item>
+        <item>常州 Changzhou</item>
+        <item>南通 Nantong</item>
+        <item>扬州 Yangzhou</item>
+        <item>淮安 Huaian</item>
+        <item>泰州 Taizhou</item>
+        <item>盐城 Yancheng</item>
+        <item>上海 Shanghai</item>
+        <item>平顶山 Pingdingshan</item>
+        <item>许昌 Xuchang</item>
+        <item>济源 Jiyuan</item>
+        <item>郑州 Zhengzhou</item>
+        <item>开封 Kaifeng</item>
+        <item>晋城 Jincheng</item>
+        <item>焦作 Jiaozuo</item>
+        <item>新乡 Xinxiang</item>
+        <item>长治 Changzhi</item>
+        <item>鹤壁 Hebi</item>
+        <item>濮阳 Puyang</item>
+        <item>安阳 Anyang</item>
+        <item>亳州 Bozhou</item>
+        <item>商丘 Shangqiu</item>
+        <item>淮北 Huaibei</item>
+        <item>徐州 Xuzhou</item>
+        <item>枣庄 Zaozhuang</item>
+        <item>菏泽 Heze</item>
+        <item>济宁 Jining</item>
+        <item>聊城 Liaocheng</item>
+        <item>泰安 Taian</item>
+        <item>莱芜 Laiwu</item>
+        <item>晋中 Jinzhong</item>
+        <item>太原 Taiyuan</item>
+        <item>阳泉 Yangquan</item>
+        <item>邯郸 Handan</item>
+        <item>邢台 Xingtai</item>
+        <item>忻州 Xinzhou</item>
+        <item>石家庄 Shijiazhuang</item>
+        <item>衡水 Hengshui</item>
+        <item>德州 Dezhou</item>
+        <item>济南 Jinan</item>
+        <item>淄博 Zibo</item>
+        <item>滨州 Binzhou</item>
+        <item>保定 Baoding</item>
+        <item>沧州 Cangzhou</item>
+        <item>天津 Tianjin</item>
+        <item>宿迁 Suqian</item>
+        <item>临沂 Linyi</item>
+        <item>连云港 Lianyungang</item>
+        <item>日照 Rizhao</item>
+        <item>青岛 Qingdao</item>
+        <item>潍坊 Weifang</item>
+        <item>东营 Dongying</item>
+        <item>烟台 Yantai</item>
+        <item>威海 Weihai</item>
+        <item>大连 Dalian</item>
+        <item>大同 Datong</item>
+        <item>集宁 Jining</item>
+        <item>张家口 Zhangjiakou</item>
+        <item>廊坊 Langfang</item>
+        <item>北京 Beijing</item>
+        <item>承德 Chengde</item>
+        <item>锡林浩特 Xilinhaote</item>
+        <item>唐山 Tangshan</item>
+        <item>秦皇岛 Qinhuangdao</item>
+        <item>葫芦岛 Huludao</item>
+        <item>朝阳 Chaoyang</item>
+        <item>营口 Yingkou</item>
+        <item>锦州 Jinzhou</item>
+        <item>盘锦 Panjin</item>
+        <item>阜新 Fuxin</item>
+        <item>鞍山 Anshan</item>
+        <item>辽阳 Liaoyang</item>
+        <item>沈阳 Shenyang</item>
+        <item>赤峰 Chifeng</item>
+        <item>通辽 Tongliao</item>
+        <item>丹东 Dandong</item>
+        <item>本溪 Benxi</item>
+        <item>抚顺 Fushun</item>
+        <item>通化 Tonghua</item>
+        <item>白山 Baishan</item>
+        <item>铁岭 Tieling</item>
+        <item>辽源 Liaoyuan</item>
+        <item>四平 Siping</item>
+        <item>长春 Changchun</item>
+        <item>吉林 Jilin</item>
+        <item>延吉 Yanji</item>
+        <item>牡丹江 Mudanjiang</item>
+        <item>乌兰浩特 Wulanhaote</item>
+        <item>白城 Baicheng</item>
+        <item>海拉尔 Hailaer</item>
+        <item>松原 Songyuan</item>
+        <item>哈尔滨 Haerbin</item>
+        <item>大庆 Daqing</item>
+        <item>齐齐哈尔 Qiqihaer</item>
+        <item>绥化 Suihua</item>
+        <item>伊春 Yichun</item>
+        <item>大兴安岭 Daxinganling</item>
+        <item>黑河 Heihe</item>
+        <item>鸡西 Jixi</item>
+        <item>七台河 Qitaihe</item>
+        <item>佳木斯 Jiamusi</item>
+        <item>鹤岗 Hegang</item>
+        <item>双鸭山 Shuangyashan</item>
+        <item>香港 Hong Kong</item>
+        <item>澳门 Macao</item>
+        <item>高雄 Gaoxiong</item>
+        <item>台中 Taizhong</item>
+        <item>台北 Taipei</item>
+
+    </array>
+    <array name="cityid">
+        <item>TV9JG0M1S9QU</item>
+        <item>TVPNW82QN57R</item>
+        <item>TXN08CQCQM63</item>
+        <item>TXN1VQC3C8ST</item>
+        <item>TY8G4T7ZWVX1</item>
+        <item>TZ1Y9TFKC7BS</item>
+        <item>TZ344WFBDS60</item>
+        <item>TZCCF7RKT36V</item>
+        <item>TZFR7TC93WEK</item>
+        <item>TZMM87UXBKRG</item>
+        <item>TZVHJ8T4HQ93</item>
+        <item>TZXKM4G9GS71</item>
+        <item>TZY33C4YJBP3</item>
+        <item>TZY46T9GJ6Y0</item>
+        <item>TZY7200FWT0M</item>
+        <item>VB71BQ84QPSS</item>
+        <item>VBH77M0RQ24G</item>
+        <item>VBW8JQY63YDB</item>
+        <item>W5ZTMB87F1X8</item>
+        <item>W6ZZU0QTK2SN</item>
+        <item>W7JZGDR3YYTF</item>
+        <item>W7MDSJR4TMK4</item>
+        <item>W7MFU4Y12VWZ</item>
+        <item>W7MHXVJCW6NC</item>
+        <item>W7MT92RG3HJD</item>
+        <item>W7MV6SENCGG4</item>
+        <item>W7MZJ3D2NP9X</item>
+        <item>W7Q1BR3PE78W</item>
+        <item>W7Q1PZC6KCFW</item>
+        <item>W7QDBNQVFQN8</item>
+        <item>W7QH70RCB3PE</item>
+        <item>W7QQ1QHQ7VWQ</item>
+        <item>W7QT9B3G3S46</item>
+        <item>W7QZ1QFP50HH</item>
+        <item>W7TCRF6D3JPS</item>
+        <item>W7UR7MB3QQDU</item>
+        <item>W7V53W659VPW</item>
+        <item>W7VD5N6F061Q</item>
+        <item>W7VHZEYSJ2W6</item>
+        <item>W7W0PPEX9F8F</item>
+        <item>W7W2N6K8F64J</item>
+        <item>W7W3YQKE4QDH</item>
+        <item>W7Y3P046TR7U</item>
+        <item>W7YGK0CKZKF9</item>
+        <item>W7ZSKJM3GP7Z</item>
+        <item>W982Y5WFG81G</item>
+        <item>WDC336NBG99F</item>
+        <item>WEBY8Q5HHUCU</item>
+        <item>WHPG4ZZB3XSN</item>
+        <item>WHPPV7HP148U</item>
+        <item>WHQ5514S00XF</item>
+        <item>WHQWBSVQS7RS</item>
+        <item>WHW713U75VQ2</item>
+        <item>WHX38U36B3BU</item>
+        <item>WHYYKDR3D2H0</item>
+        <item>WHZ2BV37270V</item>
+        <item>WJ1Q3KPFD1QS</item>
+        <item>WJ2B9TWGFBT5</item>
+        <item>WJ70G7N4S3H0</item>
+        <item>WJ97P4G263RF</item>
+        <item>WJT157H36HS5</item>
+        <item>WJUGXXRYCVG7</item>
+        <item>WJX5GH5PYG5R</item>
+        <item>WK1KZS3MC5U1</item>
+        <item>WK2FT8F9H0YR</item>
+        <item>WK2NQUD6QD0J</item>
+        <item>WK3N92NQV6RQ</item>
+        <item>WK4HUQ2S15F0</item>
+        <item>WK5ZFNY7D4FJ</item>
+        <item>WK6WEJ9VE4V7</item>
+        <item>WK8R4WWPXZ1K</item>
+        <item>WK9C440U729C</item>
+        <item>WKBWQZEYXGPF</item>
+        <item>WKCG2PQ8G1M2</item>
+        <item>WKDXH1Q2BNXZ</item>
+        <item>WKEM6FWMMFWJ</item>
+        <item>WKEZD7MXE04F</item>
+        <item>WKFG79YD1BCG</item>
+        <item>WKJ1F428HH2F</item>
+        <item>WKJGQJ0R3057</item>
+        <item>WKJWVXFV72X7</item>
+        <item>WKKUE0QPVT8X</item>
+        <item>WKMF3VJHWB9X</item>
+        <item>WKN2DZXM71F0</item>
+        <item>WKPDMK3Y8JWT</item>
+        <item>WKPGPK45UZQM</item>
+        <item>WKPJS42KFVJX</item>
+        <item>WKQRV6P6WM81</item>
+        <item>WKR6FMS0Z3UW</item>
+        <item>WKSMQWM9VDFV</item>
+        <item>WKSZ0YTRER5H</item>
+        <item>WKUJ8GKSN3ZC</item>
+        <item>WKVTSQQ2WQS8</item>
+        <item>WKXQ7GRJYT07</item>
+        <item>WKYHZ4GWCU8B</item>
+        <item>WKZ7089YZ20M</item>
+        <item>WKZTU85FVNSV</item>
+        <item>WM34XCDQ1VND</item>
+        <item>WM3B1R518R80</item>
+        <item>WM3FFWQTYQ52</item>
+        <item>WM47STMVQSWN</item>
+        <item>WM4UPPEGCN1F</item>
+        <item>WM4WBR42NUWC</item>
+        <item>WM67M75V9WZY</item>
+        <item>WM68Q2Z5FRTM</item>
+        <item>WM6N2PM3WY2K</item>
+        <item>WM7B0X53DZW2</item>
+        <item>WM7JD7CXZK37</item>
+        <item>WM7RJGM47PV5</item>
+        <item>WM7V66VSE5DV</item>
+        <item>WMB74JR8MU82</item>
+        <item>WMD1P5P1QK95</item>
+        <item>WMD7P0YN1CHN</item>
+        <item>WMEVJW5E9Q66</item>
+        <item>WMFW5823J5Q2</item>
+        <item>WMG22PXN3WPT</item>
+        <item>WMMU75CW7CKH</item>
+        <item>WMN10GQZYQDK</item>
+        <item>WMNT9YCY99D6</item>
+        <item>WMPFEYKZJDQM</item>
+        <item>WMPMM26US87X</item>
+        <item>WMRNSHZ87YY1</item>
+        <item>WMRU9C7MH9C3</item>
+        <item>WMS3W5RJETCF</item>
+        <item>WMUH5K1WDWZC</item>
+        <item>WMV9BV1YY1EC</item>
+        <item>WMW7Q9T3W529</item>
+        <item>WMXB90VDC7PZ</item>
+        <item>WMXY3PVX93RV</item>
+        <item>WMYC8VK3H18J</item>
+        <item>WN7RPW01FK0F</item>
+        <item>WNPK15RJ0H84</item>
+        <item>WNRW6560ZURV</item>
+        <item>WNTHRYRP0P8J</item>
+        <item>WNXF241JU7T0</item>
+        <item>WNZMMYCRWTUZ</item>
+        <item>WPDE8HGNVFWJ</item>
+        <item>WPJFKJQ5BCWZ</item>
+        <item>WPN41UK0D3H6</item>
+        <item>WQ1NYPBJ3BD7</item>
+        <item>WQ2D1TXVBJ01</item>
+        <item>WQ2Y3RYEE7DY</item>
+        <item>WQ36SBF902FR</item>
+        <item>WQ3V4QR6VR6G</item>
+        <item>WQ5HTXNGNE1W</item>
+        <item>WQ66KU06BHB1</item>
+        <item>WQ6PFTTX1VY6</item>
+        <item>WQ7F5V8HRBZU</item>
+        <item>WQ7SF3WEPQRU</item>
+        <item>WQ82K43YVYU8</item>
+        <item>WQ8ZZ2UYK26X</item>
+        <item>WQBEJ0TNY84M</item>
+        <item>WQDV3QM9ZDUM</item>
+        <item>WQG80DH3X35S</item>
+        <item>WQGDF7NXZRZB</item>
+        <item>WQGHUSF91KWU</item>
+        <item>WQGTUXRECXJN</item>
+        <item>WQH5TBCEVBMU</item>
+        <item>WQHG50QPMX0T</item>
+        <item>WQJ6YY8MHZP0</item>
+        <item>WQJ7398FTXFD</item>
+        <item>WQJQWC27HZX1</item>
+        <item>WQJU78X3NFJU</item>
+        <item>WQKE38EK0NBP</item>
+        <item>WQN0TV21C6RY</item>
+        <item>WQNZJRJNM3JV</item>
+        <item>WQPJF7T25VCT</item>
+        <item>WQPUYY7S4GV2</item>
+        <item>WQRM38NMHR7P</item>
+        <item>WQTB5QBFKYSB</item>
+        <item>WQXJ2UGJEGPU</item>
+        <item>WQY1BBWVNM4Q</item>
+        <item>WQZZWRV1BGKH</item>
+        <item>WR5CWTXYQRVP</item>
+        <item>WRHRGFQ3CQS6</item>
+        <item>WRN16S9GJRQ1</item>
+        <item>WRNP70PG2MPX</item>
+        <item>WRR2Q2Z7CXWM</item>
+        <item>WS02MNW64CP6</item>
+        <item>WS06YNEMPP18</item>
+        <item>WS08H58U92R8</item>
+        <item>WS0E9D8WN298</item>
+        <item>WS0GHKN5ZP7T</item>
+        <item>WS0QU43YTBHW</item>
+        <item>WS10730EM8EV</item>
+        <item>WS17E8Y5G0RU</item>
+        <item>WS1WFPCVR8WG</item>
+        <item>WS2V1N2FZZ77</item>
+        <item>WS4196CZ5GG1</item>
+        <item>WS4UZ4EZ953Z</item>
+        <item>WS4VBP4H9W1J</item>
+        <item>WS4YTUBPDZY9</item>
+        <item>WS6D4KH12059</item>
+        <item>WS7EMPWP7EQ3</item>
+        <item>WS7GQBRNR6V8</item>
+        <item>WS7NZ16DHEHU</item>
+        <item>WS86EV4EKUK4</item>
+        <item>WS9DZQ1QXHGR</item>
+        <item>WSB118FZZ57Y</item>
+        <item>WSBQ3F31E8P0</item>
+        <item>WSBQQ66C8040</item>
+        <item>WSBVNTZH3M2C</item>
+        <item>WSCF23JCKNQJ</item>
+        <item>WSCQ4UBFXPTE</item>
+        <item>WSCWR06PNPFU</item>
+        <item>WSETKW23BDUT</item>
+        <item>WSFXR95RZD21</item>
+        <item>WSKMS3KBE2JM</item>
+        <item>WSS8S6CQZBPG</item>
+        <item>WSSP952Z8846</item>
+        <item>WSSU6EXX52RE</item>
+        <item>WSSZXXPU1B76</item>
+        <item>WSVZ695PCF71</item>
+        <item>WT029G15ETRJ</item>
+        <item>WT0RN4EKXHCD</item>
+        <item>WT2M09U9QEH8</item>
+        <item>WT2QRPRCSNKH</item>
+        <item>WT2SV8EY0D76</item>
+        <item>WT33C6J2C563</item>
+        <item>WT3GC9DRC209</item>
+        <item>WT3PBQDH23US</item>
+        <item>WT3Q0FW9ZJ3Q</item>
+        <item>WT3SYNJHF48X</item>
+        <item>WT3TJZMB152J</item>
+        <item>WT47HJP3HEMP</item>
+        <item>WT50ZFRU8TYY</item>
+        <item>WT5CU7PJK0RS</item>
+        <item>WT5QD22W4GKR</item>
+        <item>WT62ZWSX5CM0</item>
+        <item>WT7JXTC4NSMZ</item>
+        <item>WT7W3R63DQMH</item>
+        <item>WT7ZCN9UKCZS</item>
+        <item>WT8S7Y3W2KX4</item>
+        <item>WT9NG9P4ZDHG</item>
+        <item>WTB58RQWFJC5</item>
+        <item>WTC5DEFF6TD5</item>
+        <item>WTCP494CDTDN</item>
+        <item>WTCX2BMDDWHP</item>
+        <item>WTDUEP89WV0P</item>
+        <item>WTEMH46Z5N09</item>
+        <item>WTF75T383SE2</item>
+        <item>WTG1WKHG98G5</item>
+        <item>WTG7R0CSBHZ9</item>
+        <item>WTGPMFNHZW6H</item>
+        <item>WTHS8FW3RYBK</item>
+        <item>WTJ3BG5J683H</item>
+        <item>WTJJ6TY7R0FK</item>
+        <item>WTK1H2DTJ1U4</item>
+        <item>WTMDXTK6STK4</item>
+        <item>WTMKQ069CCJ7</item>
+        <item>WTMRU3PTDC3X</item>
+        <item>WTMYGTZ7WZMY</item>
+        <item>WTN74CS48NB0</item>
+        <item>WTQ3VZQP879N</item>
+        <item>WTQFSTR6DMK4</item>
+        <item>WTS2N4R0GD1V</item>
+        <item>WTS4JZ3WMZMC</item>
+        <item>WTSK2DC1FHK3</item>
+        <item>WTSPU2JCPU6T</item>
+        <item>WTSQQYHVQ973</item>
+        <item>WTSZNJUFDEP9</item>
+        <item>WTTDPCGXTWUS</item>
+        <item>WTTE97PU94T9</item>
+        <item>WTTKC92GVT6S</item>
+        <item>WTTVYTY1H0HF</item>
+        <item>WTUBM40RTTUB</item>
+        <item>WTUXK27DXN0R</item>
+        <item>WTV28G74FW3J</item>
+        <item>WTVMWP4TCFT7</item>
+        <item>WTW3SJ5ZBJUY</item>
+        <item>WW02P7XHT0KB</item>
+        <item>WW0CWDZP17BC</item>
+        <item>WW0P9B6381U6</item>
+        <item>WW0V9QP93VS8</item>
+        <item>WW1MBZNSXN1M</item>
+        <item>WW23BS9T8PB1</item>
+        <item>WW2835D5K7BE</item>
+        <item>WW2BZF5MQKGW</item>
+        <item>WW2MYN52R11E</item>
+        <item>WW372S04V500</item>
+        <item>WW3G3XDR3729</item>
+        <item>WW3M6GBCXPV8</item>
+        <item>WW42DDHQT937</item>
+        <item>WW45ZXMVB36N</item>
+        <item>WW511U7JJ68Q</item>
+        <item>WW56FQXV5ZHB</item>
+        <item>WW5QJDVC4NKQ</item>
+        <item>WW607X60CDS4</item>
+        <item>WW6CSB4BQYSD</item>
+        <item>WW6RR5W09UKP</item>
+        <item>WW7MBNP039PE</item>
+        <item>WW7WJ9SSV9R7</item>
+        <item>WW8NMEQJCMJE</item>
+        <item>WW8P3NH2TPDT</item>
+        <item>WW8Z267HHZ3U</item>
+        <item>WW92M43YCQG0</item>
+        <item>WW96VH3U3KG5</item>
+        <item>WWB4T4PKXRH7</item>
+        <item>WWC2MYYCM6J5</item>
+        <item>WWDQ8KE95MGB</item>
+        <item>WWDTN3X443VR</item>
+        <item>WWE0TGW4PX6N</item>
+        <item>WWECQQCKH37Z</item>
+        <item>WWEUSKZ4K1P9</item>
+        <item>WWFJ5S4DNJ0T</item>
+        <item>WWG1FS318M6P</item>
+        <item>WWGQDCW6TBW1</item>
+        <item>WWH1780CEFBR</item>
+        <item>WWHPMHEV4CS4</item>
+        <item>WWHUBFTRE77P</item>
+        <item>WWKCX8PB3YE6</item>
+        <item>WWMT5Q64CR3G</item>
+        <item>WWS8Z342UPZ7</item>
+        <item>WWSKUMUVE3TR</item>
+        <item>WWWM51WDH1FX</item>
+        <item>WWWV6YM1F4ZV</item>
+        <item>WWYMRT0VRMUG</item>
+        <item>WX0S40QDCME0</item>
+        <item>WX23MTKCJ427</item>
+        <item>WX38NPJ1DP88</item>
+        <item>WX4BZD6KEJFY</item>
+        <item>WX4FBXXFKE4F</item>
+        <item>WX7C5D6581T3</item>
+        <item>WXF9CJPWG18C</item>
+        <item>WXH13WQT7XKN</item>
+        <item>WXJ51T411GRX</item>
+        <item>WXJZTSCEPN4J</item>
+        <item>WXMSKZT4B3TT</item>
+        <item>WXNZM7TPVMMZ</item>
+        <item>WXQ1U6H0VE63</item>
+        <item>WXQCCV8TM5T4</item>
+        <item>WXQX09T2HRXX</item>
+        <item>WXR3Y6P2CEQ3</item>
+        <item>WXRDFBCXJJ8E</item>
+        <item>WXRVB9QYXKY8</item>
+        <item>WXS86P4BSG4G</item>
+        <item>WXYBNKF2CT25</item>
+        <item>WZ0KQ36Y0N4N</item>
+        <item>WZ24BQQTFN10</item>
+        <item>WZ2NM0P2XMU7</item>
+        <item>WZ3T3SEQVEVF</item>
+        <item>WZ3YSC05ZW82</item>
+        <item>WZ809BF6B5HR</item>
+        <item>WZ8GZQHFH76E</item>
+        <item>WZ8MTDUGMP22</item>
+        <item>WZC1EXZ0P9HU</item>
+        <item>WZCCRENBK8PQ</item>
+        <item>WZS5FY540EQG</item>
+        <item>WZUJT5EC6FK4</item>
+        <item>Y8NY1KD57NS4</item>
+        <item>Y8P7E0F5F2QK</item>
+        <item>Y8V0J2JZ730B</item>
+        <item>YB0B8REJKCCB</item>
+        <item>YB1UX38K6DY1</item>
+        <item>YB2BVPSH4JM5</item>
+        <item>YB2JK81THR6Z</item>
+        <item>YB63388P2QN8</item>
+        <item>YB7XT0YP7SYK</item>
+        <item>YBBQB6TMV95Z</item>
+        <item>YBFTUGSP7QCT</item>
+        <item>YBJ1SQ97WHN1</item>
+        <item>YBJH7VFZU4T1</item>
+        <item>YBKDQEKD30TF</item>
+        <item>YBKTK25TPP2R</item>
+        <item>YBM322SX2QPB</item>
+        <item>WECNV8ZNE40W</item>
+        <item>WEBTFUSKS7HB</item>
+        <item>WSJ89JC5P1S7</item>
+        <item>WSMC3UM5YY39</item>
+        <item>WSQQMXBCC2VS</item>
+
+    </array>
+</resources>
